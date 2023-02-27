@@ -122,6 +122,8 @@ length(numeros)
 length(pessoas)
 length(logico)
 
+teste
+
 # Cada objeto tem seu nome e não há nomes iguais no ambiente
 
 sequencia <- c(1:10) # esta é uma forma de gerar uma sequência de números
