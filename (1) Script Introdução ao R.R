@@ -122,7 +122,7 @@ length(numeros)
 length(pessoas)
 length(logico)
 
-teste
+
 
 # Cada objeto tem seu nome e não há nomes iguais no ambiente
 
@@ -135,6 +135,7 @@ sequencia <- c(500:600)
 # Existem vetores que guardam informações de variadas classes:
 
 varios_1 <- c(1, 2, 3, "Azul", "Verde", "Vermelho", TRUE, FALSE, TRUE)
+
 
 class(varios_1)
 print(varios_1)
@@ -158,6 +159,7 @@ numeros == 1
 numeros * 2
 triplo_numeros <- numeros * 3
 metade_numeros <- numeros / 2
+
 
 pessoas != "João"
 
