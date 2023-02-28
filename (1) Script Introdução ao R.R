@@ -40,7 +40,8 @@ sqrt(25)
 # Tais pacotes precisam ser instalados antes do uso, por exemplo:
 
 install.packages("tidyverse")
-
+#install.packages("devtools")
+#devtools::install_github("r-lib/conflicted")
 # O comando acima, install.packages(), instalou o pacote "tidyverse"
 # Assim é feito com pacotes que serão utilizados, mas ainda não foram instalados
 
@@ -130,7 +131,7 @@ sequencia <- c(1:10) # esta é uma forma de gerar uma sequência de números
 
 # Se atribuir o mesmo nome a outro objeto, o objeto antigo é substituído
 
-sequencia <- c(500:600)
+sequencia2 <- c(500:600)
 
 # Existem vetores que guardam informações de variadas classes:
 
@@ -155,7 +156,7 @@ print(varios_2)
 # É possível realizar operações com os vetores. A seguir, alguns exemplos:
 # Observe os operadores comumente utilizados na linguagem R
 
-numeros == 1
+numeros == 1#compara o vetor numeros
 numeros * 2
 triplo_numeros <- numeros * 3
 metade_numeros <- numeros / 2
@@ -216,7 +217,7 @@ print(banco_dados_um)
 variavel_um <- c(1:10)
 variavel_dois <- c(11:18, NA, NA)
 variavel_tres <- c("a","b","c","d","e","f","g","h","i","j")
-
+variavel_dois
 banco_dados_dois <- data.frame(variavel_um, variavel_dois, variavel_tres)
 
 # No caso acima foi adicionado um argumento relevante: NA
